@@ -1,0 +1,10 @@
+{
+  "name": "lana-push-server",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Servidor Web Push OPCIONAL y autohospedado para los recordatorios de Lana",
+  "type": "module",
+  "scripts": { "start": "node server.mjs" },
+  "dependencies": { "web-push": "^3.6.7" },
+  "engines": { "node": ">=18" }
+}
